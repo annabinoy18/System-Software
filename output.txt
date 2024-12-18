@@ -1,0 +1,10 @@
+**      COPY     START          
+0        **       LDA      FIVE
+3        **       STA     ALPHA
+6        **      LDCH     CHARZ
+9        **      STCH        C1
+c     ALPHA      RESW         2
+12      FIVE      WORD         5
+15     CHARZ      BYTE      C'Z'
+16        C1      RESB         1
+17        **       END        **
